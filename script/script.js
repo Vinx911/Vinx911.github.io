@@ -70,11 +70,11 @@ $(document).ready(function(){
 			var url = bookmark[j][i]['url'];
 			var thumb = bookmark[j][i]['thumb'];
 			if(thumb==''){
-				$('#logo'+(j+1)+'-'+(i+1)).html('<a href="'+url+'"><img src="images/net-back.png" width="240" height="120" alt=""></a><span><a href="'+url+'">'+title+'</a></span>');
+				$('#logo'+(j+1)+'-'+(i+1)).html('<a href="'+url+'" target="_blank"><img src="images/net-back.png" width="240" height="120" alt=""></a><span><a href="'+url+'">'+title+'</a></span>');
 				alert($('#logo'+(j+1)+'-'+(i+1)).html);
 			}
 			else{
-				$('#logo'+(j+1)+'-'+(i+1)).html('<a href="'+url+'"><img src="images/'+thumb+'" width="240" height="120" alt=""></a><span><a href="'+url+'">'+title+'</a></span>');
+				$('#logo'+(j+1)+'-'+(i+1)).html('<a href="'+url+'" target="_blank"><img src="images/'+thumb+'" width="240" height="120" alt=""></a><span><a href="'+url+'">'+title+'</a></span>');
 			}
 		};
 	};
