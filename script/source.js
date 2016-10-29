@@ -1,21 +1,28 @@
 
 var searchEngine = 'google'; // default search engine - set google for google search, bing for bing search, yahoo for yahoo search
 
+var showHome = true;
+var showMore = false;
+
 var numberOfScreens = 1; // set number of screens (1 or 2 or 3)
  
 var TabName = new Array(); // set names of blocks
-TabName[1] = '常用网址';
-TabName[2] = '';
-TabName[3] = '';
-TabName[4] = '';
-TabName[5] = '';
-TabName[6] = '';
-TabName[7] = '';
+TabName[0] = '常用网址';
+TabName[1] = 'tab2';
+TabName[2] = 'tab3';
+TabName[3] = 'tab4';
+TabName[4] = 'tab5';
+TabName[5] = 'tab6';
+TabName[6] = 'tab7';
 
 var bookmark = new Array();
 bookmark[0] = new Array();
 bookmark[1] = new Array();
 bookmark[2] = new Array();
+bookmark[3] = new Array();
+bookmark[4] = new Array();
+bookmark[5] = new Array();
+bookmark[6] = new Array();
 
 // set your bookmarks here: (If you do not fill 'thumb' for thumbnail will be used title)
 // FIRST BLOCK
@@ -262,4 +269,328 @@ bookmark[2][15] = {
 	'title':'weather.com',
 	'url':'http://www.weather.com/',
 	'thumb':'weather.png'
+};
+
+bookmark[3][0] = {
+	'title':'google',
+	'url':'http://google.com',
+	'thumb':'google.png'
+};
+bookmark[3][1] = {
+	'title':'吾爱破解',
+	'url':'http://www.52pojie.cn/',
+	'thumb':'52pj.png'
+};
+bookmark[3][2] = {
+	'title':'Github',
+	'url':'https://github.com',
+	'thumb':'github.png'
+};
+bookmark[3][3] = {
+	'title':'百度网盘',
+	'url':'http://pan.baidu.com',
+	'thumb':'baiduwangpan.png'
+};
+bookmark[3][4] = {
+	'title':'CSDN',
+	'url':'http://blog.csdn.net/u311471873',
+	'thumb':'csdn.png'
+};
+bookmark[3][5] = {
+	'title':'开源中国',
+	'url':'https://www.oschina.net',
+	'thumb':'oschina.png'
+};
+bookmark[3][6] = {
+	'title':'MSDN',
+	'url':'https://msdn.microsoft.com/zh-cn/',
+	'thumb':'msdn.png'
+};
+bookmark[3][7] = {
+	'title':'谷歌翻译',
+	'url':'http://translate.google.cn/',
+	'thumb':'googletranslate.png'
+};
+bookmark[3][8] = {
+	'title':'优酷',
+	'url':'http://www.youku.com/',
+	'thumb':'youku.png'
+};
+bookmark[3][9] = {
+	'title':'斗鱼',
+	'url':'https://www.douyu.com/',
+	'thumb':'douyu.png'
+};
+bookmark[3][10] = {
+	'title':'5Sing',
+	'url':'http://5sing.kugou.com/',
+	'thumb':'5sing.png'
+};
+bookmark[3][11] = {
+	'title':'YouTube',
+	'url':'http://youtube.com',
+	'thumb':'youtube.png'
+};
+bookmark[3][12] = {
+	'title':'淘宝',
+	'url':'http://www.taobao.com/',
+	'thumb':'taobao.png'
+};
+bookmark[3][13] = {
+	'title':'京东',
+	'url':'http://www.jd.com/',
+	'thumb':'jingdong.png'
+};
+bookmark[3][14] = {
+	'title':'当当',
+	'url':'http://www.dangdang.com/',
+	'thumb':'dangdang.png'
+};
+bookmark[3][15] = {
+	'title':'新浪微博',
+	'url':'http://weibo.com/',
+	'thumb':'xinlangweibo.png'
+};
+
+bookmark[4][0] = {
+	'title':'google',
+	'url':'http://google.com',
+	'thumb':'google.png'
+};
+bookmark[4][1] = {
+	'title':'吾爱破解',
+	'url':'http://www.52pojie.cn/',
+	'thumb':'52pj.png'
+};
+bookmark[4][2] = {
+	'title':'Github',
+	'url':'https://github.com',
+	'thumb':'github.png'
+};
+bookmark[4][3] = {
+	'title':'百度网盘',
+	'url':'http://pan.baidu.com',
+	'thumb':'baiduwangpan.png'
+};
+bookmark[4][4] = {
+	'title':'CSDN',
+	'url':'http://blog.csdn.net/u411471873',
+	'thumb':'csdn.png'
+};
+bookmark[4][5] = {
+	'title':'开源中国',
+	'url':'https://www.oschina.net',
+	'thumb':'oschina.png'
+};
+bookmark[4][6] = {
+	'title':'MSDN',
+	'url':'https://msdn.microsoft.com/zh-cn/',
+	'thumb':'msdn.png'
+};
+bookmark[4][7] = {
+	'title':'谷歌翻译',
+	'url':'http://translate.google.cn/',
+	'thumb':'googletranslate.png'
+};
+bookmark[4][8] = {
+	'title':'优酷',
+	'url':'http://www.youku.com/',
+	'thumb':'youku.png'
+};
+bookmark[4][9] = {
+	'title':'斗鱼',
+	'url':'https://www.douyu.com/',
+	'thumb':'douyu.png'
+};
+bookmark[4][10] = {
+	'title':'5Sing',
+	'url':'http://5sing.kugou.com/',
+	'thumb':'5sing.png'
+};
+bookmark[4][11] = {
+	'title':'YouTube',
+	'url':'http://youtube.com',
+	'thumb':'youtube.png'
+};
+bookmark[4][12] = {
+	'title':'淘宝',
+	'url':'http://www.taobao.com/',
+	'thumb':'taobao.png'
+};
+bookmark[4][13] = {
+	'title':'京东',
+	'url':'http://www.jd.com/',
+	'thumb':'jingdong.png'
+};
+bookmark[4][14] = {
+	'title':'当当',
+	'url':'http://www.dangdang.com/',
+	'thumb':'dangdang.png'
+};
+bookmark[4][15] = {
+	'title':'新浪微博',
+	'url':'http://weibo.com/',
+	'thumb':'xinlangweibo.png'
+};
+
+bookmark[5][0] = {
+	'title':'google',
+	'url':'http://google.com',
+	'thumb':'google.png'
+};
+bookmark[5][1] = {
+	'title':'吾爱破解',
+	'url':'http://www.52pojie.cn/',
+	'thumb':'52pj.png'
+};
+bookmark[5][2] = {
+	'title':'Github',
+	'url':'https://github.com',
+	'thumb':'github.png'
+};
+bookmark[5][3] = {
+	'title':'百度网盘',
+	'url':'http://pan.baidu.com',
+	'thumb':'baiduwangpan.png'
+};
+bookmark[5][4] = {
+	'title':'CSDN',
+	'url':'http://blog.csdn.net/u511471873',
+	'thumb':'csdn.png'
+};
+bookmark[5][5] = {
+	'title':'开源中国',
+	'url':'https://www.oschina.net',
+	'thumb':'oschina.png'
+};
+bookmark[5][6] = {
+	'title':'MSDN',
+	'url':'https://msdn.microsoft.com/zh-cn/',
+	'thumb':'msdn.png'
+};
+bookmark[5][7] = {
+	'title':'谷歌翻译',
+	'url':'http://translate.google.cn/',
+	'thumb':'googletranslate.png'
+};
+bookmark[5][8] = {
+	'title':'优酷',
+	'url':'http://www.youku.com/',
+	'thumb':'youku.png'
+};
+bookmark[5][9] = {
+	'title':'斗鱼',
+	'url':'https://www.douyu.com/',
+	'thumb':'douyu.png'
+};
+bookmark[5][10] = {
+	'title':'5Sing',
+	'url':'http://5sing.kugou.com/',
+	'thumb':'5sing.png'
+};
+bookmark[5][11] = {
+	'title':'YouTube',
+	'url':'http://youtube.com',
+	'thumb':'youtube.png'
+};
+bookmark[5][12] = {
+	'title':'淘宝',
+	'url':'http://www.taobao.com/',
+	'thumb':'taobao.png'
+};
+bookmark[5][13] = {
+	'title':'京东',
+	'url':'http://www.jd.com/',
+	'thumb':'jingdong.png'
+};
+bookmark[5][14] = {
+	'title':'当当',
+	'url':'http://www.dangdang.com/',
+	'thumb':'dangdang.png'
+};
+bookmark[5][15] = {
+	'title':'新浪微博',
+	'url':'http://weibo.com/',
+	'thumb':'xinlangweibo.png'
+};
+
+bookmark[6][0] = {
+	'title':'google',
+	'url':'http://google.com',
+	'thumb':'google.png'
+};
+bookmark[6][1] = {
+	'title':'吾爱破解',
+	'url':'http://www.52pojie.cn/',
+	'thumb':'52pj.png'
+};
+bookmark[6][2] = {
+	'title':'Github',
+	'url':'https://github.com',
+	'thumb':'github.png'
+};
+bookmark[6][3] = {
+	'title':'百度网盘',
+	'url':'http://pan.baidu.com',
+	'thumb':'baiduwangpan.png'
+};
+bookmark[6][4] = {
+	'title':'CSDN',
+	'url':'http://blog.csdn.net/u611471873',
+	'thumb':'csdn.png'
+};
+bookmark[6][5] = {
+	'title':'开源中国',
+	'url':'https://www.oschina.net',
+	'thumb':'oschina.png'
+};
+bookmark[6][6] = {
+	'title':'MSDN',
+	'url':'https://msdn.microsoft.com/zh-cn/',
+	'thumb':'msdn.png'
+};
+bookmark[6][7] = {
+	'title':'谷歌翻译',
+	'url':'http://translate.google.cn/',
+	'thumb':'googletranslate.png'
+};
+bookmark[6][8] = {
+	'title':'优酷',
+	'url':'http://www.youku.com/',
+	'thumb':'youku.png'
+};
+bookmark[6][9] = {
+	'title':'斗鱼',
+	'url':'https://www.douyu.com/',
+	'thumb':'douyu.png'
+};
+bookmark[6][10] = {
+	'title':'5Sing',
+	'url':'http://5sing.kugou.com/',
+	'thumb':'5sing.png'
+};
+bookmark[6][11] = {
+	'title':'YouTube',
+	'url':'http://youtube.com',
+	'thumb':'youtube.png'
+};
+bookmark[6][12] = {
+	'title':'淘宝',
+	'url':'http://www.taobao.com/',
+	'thumb':'taobao.png'
+};
+bookmark[6][13] = {
+	'title':'京东',
+	'url':'http://www.jd.com/',
+	'thumb':'jingdong.png'
+};
+bookmark[6][14] = {
+	'title':'当当',
+	'url':'http://www.dangdang.com/',
+	'thumb':'dangdang.png'
+};
+bookmark[6][15] = {
+	'title':'新浪微博',
+	'url':'http://weibo.com/',
+	'thumb':'xinlangweibo.png'
 };

@@ -9,7 +9,7 @@ body{ background:#0C6D37 url(../images/background/metro_bg.png) repeat center to
 #top dl dt a{ text-indent:-9999px; display:block; width:250px; height:40px;}
 #top dl a{ color:#ccc; font-size:12px; text-decoration:none;}
 #top dl span{ padding:0 10px; color:#ddd; font-size:12px;}
-#top dl dd{ float:right;}
+#top dl dd{ float:left;}
 #top dl dd a{ display:block; float:left; text-align:center; font-weight:bold;font-size:90%; margin:0 5px;_dispaly:inline; overflow:hidden; cursor:pointer;}
 .a_index{ width:53px; height:39px; text-indent:-9999px; background:url(../images/background/top_home.png) no-repeat center;}
 .a_index_h{ width:53px; height:42px; background:url(../images/background/top_home_h.png) no-repeat;}
@@ -51,8 +51,7 @@ body{ background:#0C6D37 url(../images/background/metro_bg.png) repeat center to
 
 #metro_box dl dd ul li a img{  width:240px; height:120px; overflow:hidden; margin:0; padding:0; border:none;}
 #metro_box dl dd ul li:hover{opacity:1;filter:alpha(opacity=100); padding:0px; border:1px dashed #fcfcfc;}
-#metro_box dl dd ul li[class="one"]{ margin-left:0; }
-#metro_box dl dd ul li[class="four"]{ margin-right:0}
+#metro_box dl dd ul li{ margin-left:0; }
 
 #logo1-1{background:#da562f;}
 #logo1-2{background:#00a6d0;}

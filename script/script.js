@@ -60,23 +60,41 @@ $(document).ready(function(){
 		
 		<!--[if IE 6]>$("#metro_box dd").eq(index).show(300);<![endif]-->			
 	});
+	
+	if(showHome) {
+		$('.a_index').show();
+	}
+	else{
+		$('.a_index').hide();
+	}
 
+	if(showMore) {
+		$('.a_more').show();
+	}
+	else{
+		$('.a_more').hide();
+	}	
 	
-	
-	
-	for (var j=0; j <= (num-1); j++) {		
-		for(var i=0;i<16;i++){								
-			var title = bookmark[j][i]['title'];
-			var url = bookmark[j][i]['url'];
-			var thumb = bookmark[j][i]['thumb'];
-			if(thumb==''){
-				$('#logo'+(j+1)+'-'+(i+1)).html('<a href="'+url+'"><img src="images/net-back.png" width="240" height="120" alt=""></a><span><a href="'+url+'">'+title+'</a></span>');
-				alert($('#logo'+(j+1)+'-'+(i+1)).html);
-			}
-			else{
-				$('#logo'+(j+1)+'-'+(i+1)).html('<a href="'+url+'"><img src="images/'+thumb+'" width="240" height="120" alt=""></a><span><a href="'+url+'">'+title+'</a></span>');
-			}
-		};
+	for (var i=0; i < 7; i++) {
+		if(i < num){
+			$('.a_tab'+(i+1)).html(TabName[i]);	
+			for(var j=0;j<16;j++){								
+				var title = bookmark[i][j]['title'];
+				var url = bookmark[i][j]['url'];
+				var thumb = bookmark[i][j]['thumb'];
+				if(thumb==''){
+					$('#logo'+(i+1)+'-'+(j+1)).html('<a href="'+url+'"><img src="images/net-back.png" width="240" height="120" alt=""></a><span><a href="'+url+'">'+title+'</a></span>');
+					alert($('#logo'+(i+1)+'-'+(j+1)).html);
+				}
+				else{
+					$('#logo'+(i+1)+'-'+(j+1)).html('<a href="'+url+'"><img src="images/'+thumb+'" width="240" height="120" alt=""></a><span><a href="'+url+'">'+title+'</a></span>');
+				}
+			};
+		}
+		else{
+			$('.a_tab'+(i+1)).hide();			
+		}
+		
 	};
 	
 	
