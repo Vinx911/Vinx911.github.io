@@ -7,12 +7,6 @@ $(document).ready(function(){
 	//var img_w=$(".arr_left img").width();
 	//$(".prev").css("position","absolute").css("left","10px").css("top",($(window).height()-img_h)/2);
 	//$(".next").css("position","absolute").css("right","10px").css("top",($(window).height()-img_h)/2);
-	//链接在新窗口打开
-	$(".a_link dd a").attr("target","_blank");
-	$(".a_link ul li>a").hover(function(){
-		var a_href=$(this).attr("href");			
-		$(this).siblings().find("a").attr("href",a_href);
-	});
 	
 	//切屏-----------------------------------------------------------------
 	$("#top dl dd a").click(function(){
@@ -97,5 +91,11 @@ $(document).ready(function(){
 		
 	};
 	
+	//链接在新窗口打开
+	$(".a_link dd a").attr("target","_blank");
+	$(".a_link ul li>a").hover(function(){
+		var a_href=$(this).attr("href");			
+		$(this).siblings().find("a").attr("href",a_href);
+	});
 	
 });
