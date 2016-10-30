@@ -1,20 +1,75 @@
 
-var searchEngine = 'google'; // default search engine - set google for google search, bing for bing search, yahoo for yahoo search
+/* Search */
+var defaultSearchTab = 0; 
+var defaultSearchIndex = 0; 
+var numberOfSearchTab = 1; //set number of SearchTab (1-8)
+var searchTabName = new Array();
+searchTabName[0] = '网页';
+searchTabName[1] = '新闻';
+searchTabName[2] = '视频';
+searchTabName[3] = '图片';
+searchTabName[4] = '音乐';
+searchTabName[5] = '地图';
+searchTabName[6] = '购物';
+searchTabName[7] = '问答';
 
-var showHome = true;
-var showMore = false;
+var searchEngine = new Array();
+searchEngine[0] = new Array();
+searchEngine[1] = new Array();
+searchEngine[2] = new Array();
+searchEngine[3] = new Array();
+searchEngine[4] = new Array();
+searchEngine[5] = new Array();
+searchEngine[6] = new Array();
+searchEngine[7] = new Array();
+
+searchEngine[0][0] = {
+	'title':'360搜索',
+	'thumb':'searchlogo/so.png',
+	'button':'搜一下',
+	'url':'https://www.so.com/s',
+	'key_param':'q',
+	'others_params':'ie=utf-8&src=viis'
+};
+searchEngine[0][1] = {
+	'title':'百度搜索',
+	'thumb':'searchlogo/baidu.png',
+	'button':'百度一下',
+	'url':'https://www.baidu.com/s',
+	'key_param':'wd',
+	'others_params':'ie=utf-8&tn=viis'
+};
+searchEngine[0][2] = {
+	'title':'谷歌搜索',
+	'thumb':'searchlogo/google.png',
+	'button':'谷歌搜索',
+	'url':'https://www.google.com/search',
+	'key_param':'q',
+	'others_params':'ie=utf-8&src=viis'
+};
+searchEngine[0][3] = {
+	'title':'必应搜索',
+	'thumb':'searchlogo/bing.png',
+	'button':'必应搜索',
+	'url':'http://cn.bing.com/search',
+	'key_param':'q',
+	'others_params':'ie=utf-8&from=viis'
+};
 
 var numberOfScreens = 1; // set number of screens (1 or 2 or 3)
- 
-var TabName = new Array(); // set names of blocks
-TabName[0] = '常用网址';
-TabName[1] = 'tab2';
-TabName[2] = 'tab3';
-TabName[3] = 'tab4';
-TabName[4] = 'tab5';
-TabName[5] = 'tab6';
-TabName[6] = 'tab7';
+/* Top tab */
+var showHome = true;
+var showMore = false;
+var tabName = new Array(); // set names of blocks
+tabName[0] = '常用网址';
+tabName[1] = 'tab2';
+tabName[2] = 'tab3';
+tabName[3] = 'tab4';
+tabName[4] = 'tab5';
+tabName[5] = 'tab6';
+tabName[6] = 'tab7';
 
+/* bookmark */
 var bookmark = new Array();
 bookmark[0] = new Array();
 bookmark[1] = new Array();

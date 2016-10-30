@@ -6,14 +6,7 @@
 <meta name="keywords" content="VIIs导航" />
 <meta name="description" content="VIIs导航" />
 <link rel="stylesheet" href="css/metro.css">
-<script type="text/javascript" src="script/jquery-1.6.1.min.js"></script>
-<!--解决在ie6下png透明-->
-<!--[if IE 6]>
-	<script type="text/javascript" src="script/DD_belatedPNG.js" ></script>	
-	<script type="text/javascript">
-	DD_belatedPNG.fix('ul,li,img');
-	</script>
-<![endif]-->
+<script type="text/javascript" src="script/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="script/source.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
 </head>
@@ -23,18 +16,44 @@
   <dl>
     <dt><a href="http://viis.oschina.io" target="_blank">VIIs网址导航</a></dt>
     <dd>
-      <a class="a_index" href="http://viis.oschina.io" target="_self">首页</a>
-      <a class="a_tab1 a_tab1_h"></a>
-      <a class="a_tab2"></a>
-      <a class="a_tab3"></a>
-      <a class="a_tab4"></a>
-      <a class="a_tab5"></a>
-      <a class="a_tab6"></a>
-      <a class="a_tab7"></a>
-      <a class="a_more" href="http://viis.oschina.io" target="_blank">更多</a></dd>
+      <a class="top_index" href="http://viis.oschina.io" target="_self">首页</a>
+      <a class="top_tab top_tab_h"></a>
+      <a class="top_tab"></a>
+      <a class="top_tab"></a>
+      <a class="top_tab"></a>
+      <a class="top_tab"></a>
+      <a class="top_tab"></a>
+      <a class="top_tab"></a>
+      <a class="top_more" href="http://viis.oschina.io" target="_blank">更多</a></dd>
   </dl>
 </div>
 <!--头部导航结束--> 
+<!--搜索栏开始-->
+<div class="searchbox">
+	<ul class="search_tab">
+		<li class="search_tab_on"><a href="#"></a></li>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+	</ul>
+	<div class="searchbar">
+    <div class="select_box">
+      <div class="select_showbox" style="cursor: pointer;"></div>
+      <ul class="select_option"></ul>
+    </div>
+		<form name="searchform" target="_blank" action="http://cn.bing.com/search">		
+      <input class="inp_srh" type="text" name="q" >      
+      <div class="others_params" style="display:none"></div>	
+			<input class="btn_srh" type="submit" value="搜索">
+		</form>
+	</div>
+</div>
+<!--搜索栏结束-->
+
 <!--logo区开始-->
 <div id="metro_box" class="a_link">
 

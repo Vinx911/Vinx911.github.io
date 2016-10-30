@@ -10,26 +10,36 @@ body{ background:#0C6D37 url(../images/background/metro_bg.png) repeat center to
 #top dl a{ color:#ccc; font-size:12px; text-decoration:none;}
 #top dl span{ padding:0 10px; color:#ddd; font-size:12px;}
 #top dl dd{ float:left;}
-#top dl dd a{ display:block; float:left; text-align:center; font-weight:bold;font-size:90%; margin:0 5px;_dispaly:inline; overflow:hidden; cursor:pointer;}
-.a_index{ width:53px; height:39px; text-indent:-9999px; background:url(../images/background/top_home.png) no-repeat center;}
-.a_index_h{ width:53px; height:42px; background:url(../images/background/top_home_h.png) no-repeat;}
-.a_tab1{ width:78px; height:39px;}
-.a_tab1_h{width:78px; height:42px;  background:url(../images/background/top_bg_hd.png) no-repeat;}
-.a_tab2{ width:78px; height:39px;}
-.a_tab2_h{ width:78px; height:42px; background:url(../images/background/top_bg_hd.png) no-repeat;}
-.a_tab3{ width:78px; height:39px;}
-.a_tab3_h{ width:78px; height:42px; background:url(../images/background/top_bg_hd.png) no-repeat;}
-.a_tab4{ width:78px; height:39px;}
-.a_tab4_h{ width:78px; height:42px; background:url(../images/background/top_bg_hd.png) no-repeat;}
-.a_tab5{ width:78px; height:39px;}
-.a_tab5_h{ width:78px; height:42px; background:url(../images/background/top_bg_hd.png) no-repeat;}
-.a_tab6{ width:78px; height:39px;}
-.a_tab6_h{ width:78px; height:42px; background:url(../images/background/top_bg_hd.png) no-repeat;}
-.a_tab7{ width:79px; height:39px;}
-.a_tab7_h{ width:79px; height:42px; background:url(../images/background/top_bg_hd.png) no-repeat;}
-.a_more{width:53px; height:42px;}
+#top dl dd a{ display:block; float:left; text-align:center; font-weight:bold;font-size:90%; margin:0 5px; overflow:hidden; cursor:pointer;}
+.top_index{ width:53px; height:39px; text-indent:-9999px; background:url(../images/background/top_home.png) no-repeat center;}
+.top_index_h{ width:53px; height:42px; background:url(../images/background/top_home_h.png) no-repeat;}
+.top_tab{ width:78px; height:39px;}
+.top_tab_h{width:78px; height:42px;  background:url(../images/background/top_bg_hd.png) no-repeat;}
+.top_more{width:53px; height:42px;}
 
-#metro_box{ width:990px; height:565px; overflow:hidden; margin:0 auto; }
+/* search */
+.searchbox{height:70px;margin:100px auto 0 auto;width:560px;}
+.searchbox .search_tab{ height:35px; width:560px; list-style:none;}
+.searchbox .search_tab li{ float:left}
+.searchbox .search_tab li a{ float:left; line-height:35px; padding:0 20px; text-decoration:none; color:#000; font-size:14px; font-weight:bold;}
+.searchbox .search_tab .search_tab_on{ background-color:#19CD55;} 
+.searchbox .search_tab .search_tab_on a{ color:#fff;}
+.searchbox .search_tab .search_tab_h{ background-color:#91CE79;} 
+.searchbox .search_tab .search_tab_h a{ color:#fff;}
+.searchbar{border:2px solid #19CD55;height:35px;margin:0 auto 0 auto;width:556px;background-color:#fff;}
+.searchbar .select_box{font-size:12px;color:#999999;width:100px;line-height:35px;float:left;position:relative;}
+.searchbar .select_showbox{height:35px;background:url(../images/background/search_ico.png) no-repeat 80px center;}
+.searchbar .select_showbox.active{background:url(../images/background/search_ico_hover.png) no-repeat 80px center;}
+.searchbar .select_option{border:2px solid #19CD55;border-top:none;display:none;left:-2px;top:35px;position:absolute;z-index:99;background:#fff;}
+.searchbar .select_option li{text-align: center; width:90px;height:35px;cursor:pointer;}
+.searchbar .select_option li.selected{background-color:#F3F3F3;color:#999;}
+.searchbar .select_option li.hover{background:#BEBEBE;color:#fff;}
+.searchbar input.inp_srh,.searchbar input.btn_srh{border:none;background:none;height:35px;line-height:35px;float:left}
+.searchbar input.inp_srh{outline:none;width:366px;}
+.searchbar input.btn_srh{background:#19CD55;color:#FFF;font-family:"微软雅黑";font-size:15px;width:90px;}
+
+/*Logo*/
+#metro_box{ width:990px; height:565px; overflow:hidden; margin:100px auto; }
 .bg0{ background:#93C5EA url(../images/background/metro_bg.png) repeat center top;}
 .bg1{ background:#93C5EA url(../images/background/bg1.jpg) repeat-x center top;}
 .bg2{ background:#bdbac5 url(../images/background/bg2.jpg) no-repeat center top;}
