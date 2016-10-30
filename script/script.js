@@ -86,6 +86,9 @@ $(document).ready(function(){
 		$('.search_tab li a').eq(i).html(searchTabName[i]);
 		$('.search_tab li a').eq(i).show();	
 	}
+	if(numberOfSearchTab<=1){
+		$('.search_tab li a').hide();
+	}
 	SetSelectOption(defaultSearchTab)
 	SetSearchEngine(defaultSearchTab,defaultSearchIndex);
 	
