@@ -2,16 +2,16 @@
 /* Search */
 var defaultSearchTab = 0; 
 var defaultSearchIndex = 0; 
-var numberOfSearchTab = 1; //set number of SearchTab (1-8)
+var numberOfSearchTab = 8; //set number of SearchTab (1-8)
 var searchTabName = new Array();
 searchTabName[0] = '网页';
-searchTabName[1] = '新闻';
-searchTabName[2] = '视频';
+searchTabName[1] = '视频';
+searchTabName[2] = '音乐';
 searchTabName[3] = '图片';
-searchTabName[4] = '音乐';
-searchTabName[5] = '地图';
-searchTabName[6] = '购物';
-searchTabName[7] = '问答';
+searchTabName[4] = '地图';
+searchTabName[5] = '网盘';
+searchTabName[6] = '种子';
+searchTabName[7] = '购物';
 
 var searchEngine = new Array();
 searchEngine[0] = new Array();
@@ -22,7 +22,7 @@ searchEngine[4] = new Array();
 searchEngine[5] = new Array();
 searchEngine[6] = new Array();
 searchEngine[7] = new Array();
-
+/*网页*/
 searchEngine[0][0] = {
 	'title':'360搜索',
 	'thumb':'searchlogo/so.png',
@@ -53,6 +53,310 @@ searchEngine[0][3] = {
 	'button':'必应搜索',
 	'url':'http://cn.bing.com/search',
 	'key_param':'q',
+	'others_params':'ie=utf-8&from=viis'
+};
+
+/*视频*/
+searchEngine[1][0] = {
+	'title':'SOKU搜库',
+	'thumb':'searchlogo/soku.png',
+	'button':'搜库',
+	'url':'http://www.soku.com/v',
+	'key_param':'keyword',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[1][1] = {
+	'title':'腾讯视频',
+	'thumb':'searchlogo/tencent.png',
+	'button':'腾讯视频',
+	'url':'http://v.qq.com/x/search/',
+	'key_param':'q',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[1][2] = {
+	'title':'Youtube',
+	'thumb':'searchlogo/youtube.png',
+	'button':'Youtube',
+	'url':'https://www.youtube.com/results',
+	'key_param':'search_query',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[1][3] = {
+	'title':'360影视',
+	'thumb':'searchlogo/360video.png',
+	'button':'360影视',
+	'url':'http://so.360kan.com/index.php',
+	'key_param':'kw',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[1][4] = {
+	'title':'乐视',
+	'thumb':'searchlogo/leshi.png',
+	'button':'乐视',
+	'url':'http://so.le.com/s',
+	'key_param':'wd',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[1][5] = {
+	'title':'迅雷看看',
+	'thumb':'searchlogo/xunkeikankan.png',
+	'button':'迅雷看看',
+	'url':'http://search.kankan.com/search.php',
+	'key_param':'keyword',
+	'others_params':'ie=utf-8&from=viis'
+};
+
+/*音乐*/
+/*
+searchEngine[2][0] = {
+	'title':'网易音乐',
+	'thumb':'',
+	'button':'网易音乐',
+	'url':'http://music.163.com/search/m/',
+	'key_param':'s',
+	'others_params':'ie=utf-8&from=viis&type=1'
+};
+searchEngine[2][1] = {
+	'title':'酷狗音乐',
+	'thumb':'',
+	'button':'酷狗音乐',
+	'url':'',
+	'key_param':'',
+	'others_params':'ie=utf-8&from=viis'
+};
+*/
+searchEngine[2][0] = {
+	'title':'360音乐',
+	'thumb':'searchlogo/360music.png',
+	'button':'360音乐',
+	'url':'http://s.music.so.com/s',
+	'key_param':'q',
+	'others_params':'ie=utf-8&from=viis&type=1'
+};
+searchEngine[2][1] = {
+	'title':'搜狗音乐',
+	'thumb':'searchlogo/sougoumusic.png',
+	'button':'搜狗音乐',
+	'url':'http://mp3.sogou.com/music',
+	'key_param':'query',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[2][2] = {
+	'title':'酷我音乐',
+	'thumb':'searchlogo/kuwo.png',
+	'button':'酷我音乐',
+	'url':'http://sou.kuwo.cn/ws/NSearch',
+	'key_param':'key',
+	'others_params':'ie=utf-8&from=viis&type=all&catalog=yueku2017'
+};
+searchEngine[2][3] = {
+	'title':'百度音乐',
+	'thumb':'searchlogo/baidumusic.png',
+	'button':'百度音乐',
+	'url':'http://music.baidu.com/search',
+	'key_param':'key',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[2][4] = {
+	'title':'QQ音乐',
+	'thumb':'searchlogo/qqmusic.png',
+	'button':'QQ音乐',
+	'url':'http://y.qq.com/portal/search.html',
+	'key_param':'w',
+	'others_params':'ie=utf-8&from=viis&searchid=1&remoteplace=txt.yqq.top'
+};
+searchEngine[2][5] = {
+	'title':'5Sing',
+	'thumb':'searchlogo/5sing.png',
+	'button':'5Sing',
+	'url':'http://search.5sing.kugou.com/',
+	'key_param':'keyword',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[2][6] = {
+	'title':'虾米音乐',
+	'thumb':'searchlogo/xiami.png',
+	'button':'虾米音乐',
+	'url':'http://www.xiami.com/search',
+	'key_param':'key',
+	'others_params':'ie=utf-8&from=viis&pos=1'
+};
+searchEngine[2][7] = {
+	'title':'音悦台',
+	'thumb':'searchlogo/yinyuetai.png',
+	'button':'音悦台',
+	'url':'http://so.yinyuetai.com/mv',
+	'key_param':'keyword',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[2][8] = {
+	'title':'Echo回声',
+	'thumb':'searchlogo/echo.png',
+	'button':'Echo回声',
+	'url':'http://www.app-echo.com/search/sound',
+	'key_param':'keyword',
+	'others_params':'ie=utf-8&from=viis'
+};
+
+/*图片*/
+searchEngine[3][0] = {
+	'title':'百度图片',
+	'thumb':'searchlogo/baiduimage.png',
+	'button':'百度图片',
+	'url':'https://image.baidu.com/search/index',
+	'key_param':'word',
+	'others_params':'ie=utf-8&from=viis&tn=baiduimage'
+};
+searchEngine[3][1] = {
+	'title':'360图片',
+	'thumb':'searchlogo/360image.png',
+	'button':'360图片',
+	'url':'http://image.so.com/i',
+	'key_param':'q',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[3][2] = {
+	'title':'必应图片',
+	'thumb':'searchlogo/bing.png',
+	'button':'必应图片',
+	'url':'http://cn.bing.com/images/search',
+	'key_param':'q',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[3][3] = {
+	'title':'谷歌图片',
+	'thumb':'searchlogo/google.png',
+	'button':'谷歌图片',
+	'url':'http://images.google.com/images',
+	'key_param':'q',
+	'others_params':'ie=utf-8&from=viis&hl=zh-CN'
+};
+
+/*地图*/
+searchEngine[4][0] = {
+	'title':'百度地图',
+	'thumb':'searchlogo/baidumap.png',
+	'button':'百度地图',
+	'url':'http://map.baidu.com/m',
+	'key_param':'word',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[4][1] = {
+	'title':'360地图',
+	'thumb':'searchlogo/360map.png',
+	'button':'360地图',
+	'url':'http://ditu.so.com/',
+	'key_param':'k',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[4][2] = {
+	'title':'高德地图',
+	'thumb':'searchlogo/amap.png',
+	'button':'高德地图',
+	'url':'http://www.amap.com',
+	'key_param':'k',
+	'others_params':'ie=utf-8&from=viis&t=map'
+};
+searchEngine[4][3] = {
+	'title':'谷歌地图',
+	'thumb':'searchlogo/google.png',
+	'button':'谷歌地图',
+	'url':'http://ditu.google.cn/maps',
+	'key_param':'q',
+	'others_params':'ie=utf-8&from=viis&hl=zh-CN'
+};
+
+/*网盘*/
+searchEngine[5][0] = {
+	'title':'搜百度盘',
+	'thumb':'searchlogo/sobaidupan.png',
+	'button':'网盘搜索',
+	'url':'http://www.sobaidupan.com/search.asp',
+	'key_param':'wd',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[5][1] = {
+	'title':'盘搜搜',
+	'thumb':'searchlogo/pansoso.png',
+	'button':'搜搜一下',
+	'url':'http://www.pansoso.com/',
+	'key_param':'q',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[5][2] = {
+	'title':'搜啦',
+	'thumb':'searchlogo/bdsola.png',
+	'button':'搜啦一下',
+	'url':'http://www.bdsola.com/search.php',
+	'key_param':'kw',
+	'others_params':'ie=utf-8&from=viis&searchType=ALL'
+};
+searchEngine[5][3] = {
+	'title':'特百度',
+	'thumb':'searchlogo/tebaidu.png',
+	'button':'特百度',
+	'url':'http://www.tebaidu.com/search.asp',
+	'key_param':'wd',
+	'others_params':'ie=utf-8&from=viis'
+};
+
+/*种子*/
+searchEngine[6][0] = {
+	'title':'BT蚂蚁',
+	'thumb':'searchlogo/btants.png',
+	'button':'BT搜索',
+	'url':'http://www.btany.com/q',
+	'key_param':'kw',
+	'others_params':'ie=utf-8&from=viis'
+};
+
+/*购物*/
+searchEngine[7][0] = {
+	'title':'淘宝',
+	'thumb':'searchlogo/taobao.png',
+	'button':'淘宝',
+	'url':'http://s.taobao.com/search',
+	'key_param':'q',
+	'others_params':'ie=utf-8&from=viis&search_type=auction&commend=all'
+};
+searchEngine[7][1] = {
+	'title':'天猫',
+	'thumb':'searchlogo/tmall.png',
+	'button':'天猫',
+	'url':'https://list.tmall.com/search_product.htm',
+	'key_param':'q',
+	'others_params':'ie=utf-8&from=viis&type=p'
+};
+searchEngine[7][2] = {
+	'title':'京东',
+	'thumb':'searchlogo/jd.png',
+	'button':'京东',
+	'url':'http://search.jd.com/Search',
+	'key_param':'keyword',
+	'others_params':'enc=utf-8&from=viis'
+};
+searchEngine[7][3] = {
+	'title':'当当',
+	'thumb':'searchlogo/dangdang.png',
+	'button':'当当',
+	'url':'http://search.dangdang.com/',
+	'key_param':'key',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[7][4] = {
+	'title':'亚马逊',
+	'thumb':'searchlogo/amazon.png',
+	'button':'亚马逊',
+	'url':'https://www.amazon.cn/s/ref=nb_sb_noss',
+	'key_param':'field-keywords',
+	'others_params':'ie=utf-8&from=viis'
+};
+searchEngine[7][5] = {
+	'title':'国美在线',
+	'thumb':'searchlogo/gome.png',
+	'button':'国美在线',
+	'url':'http://search.gome.com.cn/search',
+	'key_param':'question',
 	'others_params':'ie=utf-8&from=viis'
 };
 
