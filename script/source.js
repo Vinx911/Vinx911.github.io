@@ -273,7 +273,7 @@ searchEngine[5][0] = {
 	'button':'网盘搜索',
 	'url':'http://www.sobaidupan.com/search.asp',
 	'key_param':'wd',
-	'others_params':'ie=utf-8&from=viis'
+	'others_params':'ie=utf-8&so_md5key=c6b3187cf4f9480e4570f9718704d4b9'
 };
 searchEngine[5][1] = {
 	'title':'盘搜搜',
