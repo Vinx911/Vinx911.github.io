@@ -417,7 +417,7 @@ bookmark[0][5] = {
 };
 bookmark[0][6] = {
 	'title':'MSDN',
-	'url':'https://developer.microsoft.com/zh-cn/windows/desktop/',
+	'url':'https://developer.microsoft.com/en-us/windows/desktop/',
 	'thumb':'msdn.png'
 };
 bookmark[0][7] = {
