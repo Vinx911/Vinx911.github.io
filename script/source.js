@@ -537,6 +537,7 @@ bookmark[1][13] = {
 	'title':'全民直播',
 	'url':'https://www.quanmin.tv/',
 	'thumb':'quanmin.png'
+};
 bookmark[1][14] = {
 	'title':'熊猫直播',
 	'url':'https://www.panda.tv/',
