@@ -468,14 +468,15 @@ bookmark[0][15] = {
 // end of FIRST BLOCK
 // SECOND BLOCK
 bookmark[1][0] = {
-	'title':'网易云音乐',
-	'url':'http://music.163.com/',
-	'thumb':'netease_cloud_music.png'
-};
-bookmark[1][1] = {
 	'title':'5Sing',
 	'url':'http://5sing.kugou.com/',
 	'thumb':'5sing.png'
+};
+bookmark[1][1] = {
+	'title':'网易云音乐',
+	'url':'http://music.163.com/',
+	'thumb':'netease_cloud_music.png'
+
 };
 bookmark[1][2] = {
 	'title':'酷狗音乐',
@@ -518,9 +519,9 @@ bookmark[1][9] = {
 	'thumb':'yy.png'
 };
 bookmark[1][10] = {
-	'title':'全民直播',
-	'url':'https://www.quanmin.tv/',
-	'thumb':'quanmin.png'
+	'title':'战旗直播',
+	'url':'http://www.zhanqi.tv/',
+	'thumb':'zhanqi.png'
 };
 bookmark[1][11] = {
 	'title':'火猫直播',
@@ -533,10 +534,9 @@ bookmark[1][12] = {
 	'thumb':'meipai.png'
 };
 bookmark[1][13] = {
-	'title':'战旗直播',
-	'url':'http://www.zhanqi.tv/',
-	'thumb':'zhanqi.png'
-};
+	'title':'全民直播',
+	'url':'https://www.quanmin.tv/',
+	'thumb':'quanmin.png'
 bookmark[1][14] = {
 	'title':'熊猫直播',
 	'url':'https://www.panda.tv/',
