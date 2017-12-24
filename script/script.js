@@ -31,22 +31,22 @@ $(document).ready(function(){
 				$("body").attr("class","bg0");					
 				break;
 			case 2:
-				$("body").attr("class","bg1");						
+				$("body").attr("class","bg0");						
 				break;
 			case 3:
-				$("body").attr("class","bg2");					
+				$("body").attr("class","bg0");					
 				break;
 			case 4:
-				$("body").attr("class","bg3");					
+				$("body").attr("class","bg0");					
 				break;
 			case 5:
-				$("body").attr("class","bg4");						
+				$("body").attr("class","bg0");						
 				break;	
 			case 6:
-				$("body").attr("class","bg5");						
+				$("body").attr("class","bg0");						
 				break;	
 			default :
-				$("body").attr("class","bg6");						
+				$("body").attr("class","bg0");						
 		}		
 	});
 	
