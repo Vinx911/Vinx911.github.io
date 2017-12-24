@@ -360,13 +360,13 @@ searchEngine[7][5] = {
 	'others_params':'ie=utf-8&from=viis'
 };
 
-var numberOfScreens = 1; // set number of screens (1 or 2 or 3)
+var numberOfScreens = 2; // set number of screens (1 or 2 or 3)
 /* Top tab */
 var showHome = true;
 var showMore = false;
 var tabName = new Array(); // set names of blocks
 tabName[0] = '常用网址';
-tabName[1] = 'tab2';
+tabName[1] = '视频音乐';
 tabName[2] = 'tab3';
 tabName[3] = 'tab4';
 tabName[4] = 'tab5';
@@ -468,84 +468,84 @@ bookmark[0][15] = {
 // end of FIRST BLOCK
 // SECOND BLOCK
 bookmark[1][0] = {
-	'title':'linkedin',
-	'url':'http://www.linkedin.com/',
-	'thumb':'linkedin.png'
+	'title':'网易云音乐',
+	'url':'http://music.163.com/',
+	'thumb':'netease_cloud_music.png'
 };
 bookmark[1][1] = {
-	'title':'digg',
-	'url':'http://digg.com/',
-	'thumb':'digg.png'
+	'title':'5Sing',
+	'url':'http://5sing.kugou.com/',
+	'thumb':'5sing.png'
 };
 bookmark[1][2] = {
-	'title':'flickr',
-	'url':'http://www.flickr.com/',
-	'thumb':'flickr.png'
+	'title':'酷狗音乐',
+	'url':'http://www.kugou.com/',
+	'thumb':'kugou.png'
 };
 bookmark[1][3] = {
-	'title':'msn',
-	'url':'http://www.msn.com/',
-	'thumb':'msn.png'
+	'title':'QQ音乐',
+	'url':'https://y.qq.com/',
+	'thumb':'qqmusic.png'
 };
 bookmark[1][4] = {
-	'title':'reddit',
-	'url':'http://www.reddit.com/',
-	'thumb':'reddit.png'
+	'title':'优酷',
+	'url':'http://www.youku.com/',
+	'thumb':'youku.png'
 };
 bookmark[1][5] = {
-	'title':'skype',
-	'url':'http://www.skype.com/',
-	'thumb':'skype.png'
+	'title':'腾讯视频',
+	'url':'https://v.qq.com/',
+	'thumb':'tencent_video.png'
 };
 bookmark[1][6] = {
-	'title':'technorati',
-	'url':'http://technorati.com',
-	'thumb':'technorati.png'
+	'title':'哔哩哔哩',
+	'url':'https://www.bilibili.com/',
+	'thumb':'bilibili.png'
 };
 bookmark[1][7] = {
-	'title':'delicious',
-	'url':'http://www.delicious.com/',
-	'thumb':'delicious.png'
+	'title':'YouTube',
+	'url':'http://youtube.com',
+	'thumb':'youtube.png'
 };
 bookmark[1][8] = {
-	'title':'MySpace',
-	'url':'http://www.myspace.com/',
-	'thumb':'myspace.png'
+	'title':'斗鱼',
+	'url':'https://www.douyu.com/',
+	'thumb':'douyu.png'
 };
 bookmark[1][9] = {
-	'title':'orkut',
-	'url':'http://www.orkut.com/',
-	'thumb':'orkut.png'
+	'title':'YY直播',
+	'url':'http://www.yy.com/',
+	'thumb':'yy.png'
 };
 bookmark[1][10] = {
-	'title':'tumblr',
-	'url':'http://www.tumblr.com/',
-	'thumb':'tumblr.png'
+	'title':'全民直播',
+	'url':'https://www.quanmin.tv/',
+	'thumb':'quanmin.png'
 };
 bookmark[1][11] = {
-	'title':'StumbleUpon',
-	'url':'http://www.stumbleupon.com/',
-	'thumb':'stumbleupon.png'
+	'title':'火猫直播',
+	'url':'https://www.huomao.com/',
+	'thumb':'huomao.png'
 };
 bookmark[1][12] = {
-	'title':'StumbleUpon',
-	'url':'http://www.stumbleupon.com/',
-	'thumb':'stumbleupon.png'
+	'title':'美拍',
+	'url':'http://www.meipai.com/',
+	'thumb':'meipai.png'
 };
 bookmark[1][13] = {
-	'title':'StumbleUpon',
-	'url':'http://www.stumbleupon.com/',
-	'thumb':'stumbleupon.png'
+	'title':'战旗直播',
+	'url':'http://www.zhanqi.tv/',
+	'thumb':'zhanqi.png'
 };
 bookmark[1][14] = {
-	'title':'StumbleUpon',
-	'url':'http://www.stumbleupon.com/',
-	'thumb':'stumbleupon.png'
+	'title':'熊猫直播',
+	'url':'https://www.panda.tv/',
+	'thumb':'panda.png'
 };
 bookmark[1][15] = {
-	'title':'StumbleUpon',
-	'url':'http://www.stumbleupon.com/',
-	'thumb':'stumbleupon.png'
+	'title':'触手直播',
+	'url':'https://chushou.tv/',
+	'thumb':'chushou.png'
 };
 //end of SECOND BLOCK
 // THIRD BLOCK
