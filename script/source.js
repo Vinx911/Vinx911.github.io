@@ -360,14 +360,14 @@ searchEngine[7][5] = {
 	'others_params':'ie=utf-8&from=viis'
 };
 
-var numberOfScreens = 2; // set number of screens (1 or 2 or 3)
+var numberOfScreens = 3; // set number of screens (1 or 2 or 3)
 /* Top tab */
 var showHome = true;
 var showMore = false;
 var tabName = new Array(); // set names of blocks
 tabName[0] = '常用网址';
-tabName[1] = '视频音乐';
-tabName[2] = 'tab3';
+tabName[1] = '编程开发';
+tabName[2] = '视频音乐';
 tabName[3] = 'tab4';
 tabName[4] = 'tab5';
 tabName[5] = 'tab6';
@@ -466,170 +466,171 @@ bookmark[0][15] = {
 	'thumb':'xinlangweibo.png'
 };
 // end of FIRST BLOCK
-// SECOND BLOCK
+// THIRD BLOCK
 bookmark[1][0] = {
+	'title':'CSDN',
+	'url':'http://blog.csdn.net/',
+	'thumb':'csdn.png'
+};
+bookmark[1][1] = {
+	'title':'开源中国',
+	'url':'https://www.oschina.net',
+	'thumb':'oschina.png'
+};
+bookmark[1][2] = {
+	'title':'博客园',
+	'url':'https://www.cnblogs.com/',
+	'thumb':'cnblogs.png'
+};
+bookmark[1][3] = {
+	'title':'MSDN',
+	'url':'https://developer.microsoft.com/en-us/windows/desktop/',
+	'thumb':'msdn.png'
+};
+bookmark[1][4] = {
+	'title':'Github',
+	'url':'https://github.com',
+	'thumb':'github.png'
+};
+bookmark[1][5] = {
+	'title':'码云',
+	'url':'https://gitee.com/',
+	'thumb':'gitee.png'
+};
+bookmark[1][6] = {
+	'title':'吾爱破解',
+	'url':'http://www.52pojie.cn/',
+	'thumb':'52pj.png'
+};
+bookmark[1][7] = {
+	'title':'看雪',
+	'url':'https://bbs.pediy.com/',
+	'thumb':'pediy.png'
+};
+bookmark[1][8] = {
+	'title':'NSISFans',
+	'url':'http://www.nsisfans.com/',
+	'thumb':'nsisfans.png'
+};
+bookmark[1][9] = {
+	'title':'无忧启动',
+	'url':'http://bbs.wuyou.net/',
+	'thumb':'wuyou.png'
+};
+bookmark[1][10] = {
+	'title':'IT天空',
+	'url':'https://www.itsk.com/',
+	'thumb':'itsk.png'
+};
+bookmark[1][11] = {
+	'title':'菜鸟教程',
+	'url':'http://www.runoob.com/',
+	'thumb':'runoob.png'
+};
+bookmark[1][12] = {
+	'title':'网易云课堂',
+	'url':'http://study.163.com/',
+	'thumb':'wyykt.png'
+};
+bookmark[1][13] = {
+	'title':'腾讯课堂',
+	'url':'https://ke.qq.com',
+	'thumb':'txkt.png'
+};
+bookmark[1][14] = {
+	'title':'百度传课',
+	'url':'https://chuanke.baidu.com/',
+	'thumb':'chuanke.png'
+};
+bookmark[1][15] = {
+	'title':'学堂在线',
+	'url':'http://www.xuetangx.com/',
+	'thumb':'xuetangx.png'
+};
+// SECOND BLOCK
+bookmark[2][0] = {
 	'title':'5Sing',
 	'url':'http://5sing.kugou.com/',
 	'thumb':'5sing.png'
 };
-bookmark[1][1] = {
+bookmark[2][1] = {
 	'title':'网易云音乐',
 	'url':'http://music.163.com/',
 	'thumb':'netease_cloud_music.png'
 
 };
-bookmark[1][2] = {
+bookmark[2][2] = {
 	'title':'酷狗音乐',
 	'url':'http://www.kugou.com/',
 	'thumb':'kugou.png'
 };
-bookmark[1][3] = {
+bookmark[2][3] = {
 	'title':'QQ音乐',
 	'url':'https://y.qq.com/',
 	'thumb':'qqmusic.png'
 };
-bookmark[1][4] = {
+bookmark[2][4] = {
 	'title':'优酷',
 	'url':'http://www.youku.com/',
 	'thumb':'youku.png'
 };
-bookmark[1][5] = {
+bookmark[2][5] = {
 	'title':'腾讯视频',
 	'url':'https://v.qq.com/',
 	'thumb':'tencent_video.png'
 };
-bookmark[1][6] = {
+bookmark[2][6] = {
 	'title':'哔哩哔哩',
 	'url':'https://www.bilibili.com/',
 	'thumb':'bilibili.png'
 };
-bookmark[1][7] = {
+bookmark[2][7] = {
 	'title':'YouTube',
 	'url':'http://youtube.com',
 	'thumb':'youtube.png'
 };
-bookmark[1][8] = {
+bookmark[2][8] = {
 	'title':'斗鱼',
 	'url':'https://www.douyu.com/',
 	'thumb':'douyu.png'
 };
-bookmark[1][9] = {
+bookmark[2][9] = {
 	'title':'YY直播',
 	'url':'http://www.yy.com/',
 	'thumb':'yy.png'
 };
-bookmark[1][10] = {
+bookmark[2][10] = {
 	'title':'战旗直播',
 	'url':'http://www.zhanqi.tv/',
 	'thumb':'zhanqi.png'
 };
-bookmark[1][11] = {
+bookmark[2][11] = {
 	'title':'火猫直播',
 	'url':'https://www.huomao.com/',
 	'thumb':'huomao.png'
 };
-bookmark[1][12] = {
+bookmark[2][12] = {
 	'title':'美拍',
 	'url':'http://www.meipai.com/',
 	'thumb':'meipai.png'
 };
-bookmark[1][13] = {
+bookmark[2][13] = {
 	'title':'全民直播',
 	'url':'https://www.quanmin.tv/',
 	'thumb':'quanmin.png'
 };
-bookmark[1][14] = {
+bookmark[2][14] = {
 	'title':'熊猫直播',
 	'url':'https://www.panda.tv/',
 	'thumb':'panda.png'
 };
-bookmark[1][15] = {
+bookmark[2][15] = {
 	'title':'触手直播',
 	'url':'https://chushou.tv/',
 	'thumb':'chushou.png'
 };
 //end of SECOND BLOCK
-// THIRD BLOCK
-bookmark[2][0] = {
-	'title':'eurosport',
-	'url':'http://www.eurosport.com/',
-	'thumb':'eurosport.png'
-};
-bookmark[2][1] = {
-	'title':'amazon',
-	'url':'http://www.amazon.com/',
-	'thumb':'amazon.png'
-};
-bookmark[2][2] = {
-	'title':'eBay',
-	'url':'http://www.ebay.com/',
-	'thumb':'ebay.png'
-};
-bookmark[2][3] = {
-	'title':'IMDb',
-	'url':'http://www.imdb.com/',
-	'thumb':'imdb.png'
-};
-bookmark[2][4] = {
-	'title':'vimeo',
-	'url':'http://vimeo.com',
-	'thumb':'vimeo.png'
-};
-bookmark[2][5] = {
-	'title':'lifehacker',
-	'url':'http://lifehacker.com/',
-	'thumb':'lifehacker.png'
-};
-bookmark[2][6] = {
-	'title':'engadged',
-	'url':'http://www.engadget.com/',
-	'thumb':'engadget.png'
-};
-bookmark[2][7] = {
-	'title':'zune',
-	'url':'http://www.zune.net/',
-	'thumb':'zune.png'
-};
-bookmark[2][8] = {
-	'title':'dropbox',
-	'url':'http://www.dropbox.com/',
-	'thumb':'dropbox.png'
-};
-bookmark[2][9] = {
-	'title':'National Geographic',
-	'url':'http://www.nationalgeographic.com/',
-	'thumb':'natgeo.png'
-};
-bookmark[2][10] = {
-	'title':'CBC news',
-	'url':'http://www.cbc.ca/news/',
-	'thumb':'cbcnews.png'
-};
-bookmark[2][11] = {
-	'title':'weather.com',
-	'url':'http://www.weather.com/',
-	'thumb':'weather.png'
-};
-bookmark[2][12] = {
-	'title':'weather.com',
-	'url':'http://www.weather.com/',
-	'thumb':'weather.png'
-};
-bookmark[2][13] = {
-	'title':'weather.com',
-	'url':'http://www.weather.com/',
-	'thumb':'weather.png'
-};
-bookmark[2][14] = {
-	'title':'weather.com',
-	'url':'http://www.weather.com/',
-	'thumb':'weather.png'
-};
-bookmark[2][15] = {
-	'title':'weather.com',
-	'url':'http://www.weather.com/',
-	'thumb':'weather.png'
-};
+
 
 bookmark[3][0] = {
 	'title':'google',
