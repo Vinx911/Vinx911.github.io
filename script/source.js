@@ -387,12 +387,12 @@ bookmark[6] = new Array();
 // FIRST BLOCK
 bookmark[0][0] = {
 	'title':'google',
-	'url':'http://google.com',
+	'url':'https://google.com',
 	'thumb':'google.png'
 };
 bookmark[0][1] = {
 	'title':'吾爱破解',
-	'url':'http://www.52pojie.cn/',
+	'url':'https://www.52pojie.cn/',
 	'thumb':'52pj.png'
 };
 bookmark[0][2] = {
