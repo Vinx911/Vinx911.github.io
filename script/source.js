@@ -457,7 +457,7 @@ bookmark[0][13] = {
 };
 bookmark[0][14] = {
 	'title':'当当',
-	'url':'https://www.dangdang.com/',
+	'url':'http://www.dangdang.com/',
 	'thumb':'dangdang.png'
 };
 bookmark[0][15] = {
