@@ -24,20 +24,20 @@ searchEngine[6] = new Array();
 searchEngine[7] = new Array();
 /*网页*/
 searchEngine[0][0] = {
-	'title':'360搜索',
-	'thumb':'searchlogo/so.png',
-	'button':'搜一下',
-	'url':'https://www.so.com/s',
-	'key_param':'q',
-	'others_params':'ie=utf-8&src=viis'
-};
-searchEngine[0][1] = {
 	'title':'百度搜索',
 	'thumb':'searchlogo/baidu.png',
 	'button':'百度一下',
 	'url':'https://www.baidu.com/s',
 	'key_param':'wd',
 	'others_params':'ie=utf-8&tn=viis'
+};
+searchEngine[0][1] = {
+	'title':'360搜索',
+	'thumb':'searchlogo/so.png',
+	'button':'搜一下',
+	'url':'https://www.so.com/s',
+	'key_param':'q',
+	'others_params':'ie=utf-8&src=viis'
 };
 searchEngine[0][2] = {
 	'title':'谷歌搜索',
@@ -169,7 +169,7 @@ searchEngine[2][5] = {
 	'title':'5Sing',
 	'thumb':'searchlogo/5sing.png',
 	'button':'5Sing',
-	'url':'https://search.5sing.kugou.com/',
+	'url':'http://search.5sing.kugou.com/',
 	'key_param':'keyword',
 	'others_params':'ie=utf-8&from=viis'
 };
@@ -550,7 +550,7 @@ bookmark[1][15] = {
 // SECOND BLOCK
 bookmark[2][0] = {
 	'title':'5Sing',
-	'url':'https://5sing.kugou.com/',
+	'url':'http://5sing.kugou.com/',
 	'thumb':'5sing.png'
 };
 bookmark[2][1] = {
