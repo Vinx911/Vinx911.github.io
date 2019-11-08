@@ -610,19 +610,19 @@ bookmark[2][11] = {
 	'thumb':'huomao.png'
 };
 bookmark[2][12] = {
-	'title':'',
-	'url':'',
-	'thumb':''
+	'title':'none',
+	'url':'none',
+	'thumb':'none'
 };
 bookmark[2][13] = {
-	'title':'',
-	'url':'',
-	'thumb':''
+	'title':'none',
+	'url':'none',
+	'thumb':'none'
 };
 bookmark[2][14] = {
-	'title':'',
-	'url':'',
-	'thumb':''
+	'title':'none',
+	'url':'none',
+	'thumb':'none'
 };
 bookmark[2][15] = {
 	'title':'触手直播',
