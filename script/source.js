@@ -611,17 +611,17 @@ bookmark[2][11] = {
 };
 bookmark[2][12] = {
 	'title':'none',
-	'url':'none',
+	'url':'#',
 	'thumb':'none'
 };
 bookmark[2][13] = {
 	'title':'none',
-	'url':'none',
+	'url':'#',
 	'thumb':'none'
 };
 bookmark[2][14] = {
 	'title':'none',
-	'url':'none',
+	'url':'#',
 	'thumb':'none'
 };
 bookmark[2][15] = {
