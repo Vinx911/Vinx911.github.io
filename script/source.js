@@ -610,19 +610,19 @@ bookmark[2][11] = {
 	'thumb':'huomao.png'
 };
 bookmark[2][12] = {
-	'title':'美拍',
-	'url':'https://www.meipai.com/',
-	'thumb':'meipai.png'
+	'title':'',
+	'url':'',
+	'thumb':''
 };
 bookmark[2][13] = {
-	'title':'全民直播',
-	'url':'https://www.quanmin.tv/',
-	'thumb':'quanmin.png'
+	'title':'',
+	'url':'',
+	'thumb':''
 };
 bookmark[2][14] = {
-	'title':'熊猫直播',
-	'url':'https://www.panda.tv/',
-	'thumb':'panda.png'
+	'title':'',
+	'url':'',
+	'thumb':''
 };
 bookmark[2][15] = {
 	'title':'触手直播',
