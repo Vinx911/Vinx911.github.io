@@ -625,9 +625,9 @@ bookmark[2][14] = {
 	'thumb':'none'
 };
 bookmark[2][15] = {
-	'title':'触手直播',
-	'url':'https://chushou.tv/',
-	'thumb':'chushou.png'
+	'title':'none',
+	'url':'#',
+	'thumb':'none'
 };
 //end of SECOND BLOCK
 
