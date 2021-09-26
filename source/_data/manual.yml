@@ -1,0 +1,38 @@
+- name: 菜鸟教程
+  url: https://www.runoob.com/
+  img: /images/logos/manual/runoob.png
+  description: 菜鸟教程(www.runoob.com)提供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程。
+ 
+- name: Android
+  url: https://developer.android.google.cn/guide
+  img: /images/logos/manual/android.png
+  description: 面向 Android 开发者的官方网站。为应用开发者和设计人员提供 Android SDK 和文档。
+  
+- name: Kotlin
+  url: https://www.kotlincn.net/
+  img: /images/logos/manual/kotlin.png
+  description: Kotlin 语言中文站
+  
+- name: MSDN
+  url: https://docs.microsoft.com/zh-cn/windows/apps/desktop/
+  img: /images/logos/manual/msdn.png
+  description: 了解如何着手为 Windows 电脑构建桌面应用，包括如何选择适合新应用的应用平台，以及如何实现 Windows 10 现有应用的现代化。
+  
+- name: ESP-IDF
+  url: https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32s2/
+  img: /images/logos/manual/espressif.png
+  description: 这里是乐鑫 IoT 开发框架 (esp-idf) 的文档中心。ESP-IDF 是 ESP32、ESP32-S 和 ESP32-C 系列芯片的官方开发框架。
+  
+- name: FreeRTOS
+  url: https://www.freertos.org/a00106.html
+  img: /images/logos/manual/freertos.png
+  description: FreeRTOS是一个可移植的、开源的、迷你实时内核。一个用于小型嵌入式系统的免费RTOS。
+  
+- name: SQLite
+  url: https://www.sqlite.org/lang.html
+  img: /images/logos/manual/sqlite.png
+  description:  SQLite 是一个软件库,实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。
+  
+  
+  
+  

@@ -1,0 +1,38 @@
+- name: 哔哩哔哩
+  url: https://www.bilibili.com/
+  img: /images/logos/video/bilibili.jpg
+  description: bilibili是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。
+   
+- name: 腾讯视频
+  url: https://v.qq.com/
+  img: /images/logos/video/vqq.jpg
+  description: 腾讯视频致力于打造中国领先的在线视频媒体平台，以丰富的内容、极致的观看体验、便捷的登录方式、24小时多平台无缝应用体验以及快捷分享的产品特性，主要满足用户在线观看视频的需求。
+     
+- name: 优酷
+  url: https://youku.com/
+  img: /images/logos/video/youku.jpg
+  description: 这世界很酷
+  
+- name: 爱奇艺
+  url: https://www.iqiyi.com/
+  img: /images/logos/video/iqiyi.png
+  description: 爱奇艺（iQIYI.COM）是拥有海量、优质、高清的网络视频的大型视频网站，专业的网络视频播放平台。爱奇艺影视内容丰富多元，涵盖电影、电视剧、动漫、综艺、生活、音乐、搞笑、财经、军事、体育、片花、资讯、微电影、儿童、母婴、教育、科技、时尚、原创、公益、游戏、旅游、拍客、汽车、纪录片、爱奇艺自制剧等剧目。视频播放清晰流畅，操作界面简单友好，真正为用户带来“悦享品质”的在线观看体验。
+  
+- name: 芒果TV
+  url: https://www.mgtv.com/
+  img: /images/logos/video/mangguo.jpg
+  description: 芒果TV-大家都在看的在线视频网站-热门综艺最新电影电视剧在线观看
+  
+- name: Youtube
+  url: https://www.youtube.com/
+  img: /images/logos/video/youtube.png
+  description: 在 YouTube 上畅享您喜爱的视频和音乐，上传原创内容并与亲朋好友和全世界观众分享您的视频。
+  
+
+  
+  
+  
+  
+  
+  
+  

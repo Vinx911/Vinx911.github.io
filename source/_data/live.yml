@@ -1,0 +1,21 @@
+- name: YY直播
+  url: https://www.yy.com/
+  img: /images/logos/live/yy.png
+  description: YY致力于打造全民娱乐的互动直播平台，以多样的美女互动、优质的直播内容、极致的互动体验，满足用户音乐、舞蹈、户外等直播及绝地求生、王者荣耀等热门游戏直播的观看需求。
+   
+- name: 斗鱼直播
+  url: https://www.douyu.com/
+  img: /images/logos/live/douyu.png
+  description: 斗鱼 - 每个人的直播平台提供高清、快捷、流畅的视频直播和游戏赛事直播服务，包含英雄联盟lol直播、穿越火线cf直播、dota2直播、美女直播等各类热门游戏赛事直播和各种名家大神游戏直播，内容丰富，推送及时，带给你不一样的视听体验，一切尽在斗鱼 - 每个人的直播平台。
+  
+- name: 虎牙直播
+  url: https://www.huya.com/
+  img: /images/logos/live/huya.png
+  description: 虎牙直播是以游戏直播为主的弹幕式互动直播平台，累计注册用户2亿，提供热门游戏直播、电竞赛事直播与游戏赛事直播，手游直播等。包含英雄联盟lol，王者荣耀，绝地求生，和平精英等游戏直播，lol、dota2、dnf等热门游戏直播以及单机游戏、手游等游戏直播。
+ 
+- name: CC直播
+  url: https://cc.163.com/
+  img: /images/logos/live/163cc.png
+  description: 网易CC直播是网易推出的大型游戏娱乐直播平台，提供游戏直播、游戏视频、赛事直播、美女直播等。包括梦幻西游、大话西游、炉石传说、守望先锋、倩女幽魂、荒野行动、终结者2、决战平安京等游戏直播。
+ 
+  

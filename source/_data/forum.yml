@@ -1,0 +1,23 @@
+- name: 吾爱破解
+  url: https://www.52pojie.cn/
+  img: /images/logos/forum/52pj.png
+  description: 吾爱破解论坛致力于软件安全与病毒分析的前沿，丰富的技术版块交相辉映，由无数热衷于软件加密解密及反病毒爱好者共同维护 
+  
+- name: 看雪论坛
+  url: https://bbs.pediy.com/
+  img: /images/logos/forum/pediy.png
+  description: 看雪学院-专注于PC|移动|智能设备安全研究及逆向工程的开发者社区|bbs.pediy.com、
+  
+- name: 正点原子
+  url: http://www.openedv.com/forum.php
+  img: /images/logos/forum/opendev.png
+  description: OpenEdv-开源电子网,开源电子论坛,原子哥论坛,STM32学习论坛,正点原子论坛，电子技术开源共享。专注STM32/8开发板,FPGA,ARM Linux,51单片机,ARM,FPGA,DSP等板块。
+  
+- name: 安富莱
+  url: http://www.armbbs.cn/
+  img: /images/logos/forum/armbbs.png
+  description: 开源嵌入式论坛，开办STM32F103、 STM32F407、STM32H743、STM32H750版块
+
+  
+  
+  

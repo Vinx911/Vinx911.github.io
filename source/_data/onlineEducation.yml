@@ -1,0 +1,40 @@
+- name: 学堂在线
+  url: https://www.xuetangx.com/
+  img: /images/logos/online_education/xuetangx.png
+  description: 学堂在线是清华大学于2013年10月发起建立的慕课平台，是教育部在线教育研究中心的研究交流和成果应用平台，是国家2016年首批双创示范基地项目，是中国高等教育学会产教融合研究分会副秘书长单位，也是联合国教科文组织（UNESCO）国际工程教育中心（ICEE）的在线教育平台。目前，学堂在线运行了来自清华大学、北京大学、复旦大学、中国科技大学，以及麻省理工学院、斯坦福大学、加州大学伯克利分校等国内外高校的超过2300门优质课程，覆盖13大学科门类。
+  
+- name: 中国大学MOOC
+  url: https://www.icourse163.org/
+  img: /images/logos/online_education/icourse163.png
+  description: 中国大学MOOC(慕课) 是国内优质的中文MOOC学习平台，由爱课程网携手网易云课堂打造。平台拥有包括985高校在内提供的千余门课程，其中首批获得认定的国家精品在线开放课程322门，占2017年获得认定课程总数的65.7%。每一个有提升愿望的人，都可以在这里学习优质高校课程，与名师零距离交流，并获得认证证书。
+  
+- name: 腾讯课堂
+  url: https://ke.qq.com/
+  img: /images/logos/online_education/keqq.png
+  description: 腾讯课堂-腾讯推出的专业职业培训在线教育平台，聚合大量优质教育机构和名师，下设职业培训、公务员考试、托福雅思、考证考级、英语口语、中小学教育等众多在线学习精品课程，打造老师在线上课教学、学生及时互动学习的课堂。腾讯课堂，学习成就梦想！
+  
+- name: 网易云课堂
+  url: https://study.163.com/
+  img: /images/logos/online_education/study163.png
+  description: 网易云课堂，一个专注于成人终身学习的在线教育平台。立足于实用性的要求, 与优质的教育内容创作者一起，为您提供全面、有效的在线学习内容。
+  
+- name: CSDN学院
+  url: https://edu.csdn.net/
+  img: /images/logos/online_education/educsdn.png
+  description: 程序员研修院是CSDN的IT在线教育平台,涵盖人工智能、考试认证、移动开发、大数据技术领域职业课程,拥有讲师直播、在线答疑、职业路径等一套实战知识体系,帮助学员系统学习,早日成为IT实战派.
+  
+- name: 51CTO学院
+  url: https://edu.51cto.com/
+  img: /images/logos/online_education/edu51cto.png
+  description: 51CTO学院为IT技术人员终生学习提供最丰富的课程资源库,数千名专业讲师和大厂工程师倾力分享了数万门在线视频课程,几乎覆盖了IT技术的各个领域:java、python、php、c、前端、数据库、区块链、运维等，帮助每个渴望成长的IT技术工程师技能提升，学有所成！
+  
+- name: 极客学院
+  url: https://www.jikexueyuan.com/
+  img: /images/logos/online_education/jikexueyuan.png
+  description: 极客学院作为中国专业IT职业在线教育平台,拥有海量高清IT职业课程,涵盖30+个技术领域,如Android,iOS ,Flash,Java,Python,HTML5,Swift,Cocos2dx等视频教程.根据IT在线学习特点,极客学院推出IT学习知识体系图,IT职业学习实战路径图,帮助IT学习者从零基础起步,结合IT实战案例演练,系统学习,助你快速成为IT优秀技术人才！
+  
+- name: 蓝桥云课（实验楼）
+  url: https://www.lanqiao.cn/
+  img: /images/logos/online_education/lanqiao.png
+  description: 蓝桥云课是国内领先的IT在线编程及在线实训学习平台，专业导师提供精选的实践项目，创新的技术使得学习者无需配置繁琐的本地环境，随时在线流畅使用。以就业为导向，提供编程、运维、测试、云计算、大数据、数据库等全面的IT技术动手实践环境，提供Linux、Python、Java、C语言、Node.js、Hadoop、PHP、Docker、Git、R、SQL、MongoDB、Redis、Swift、Spark等千门热门课程。
+ 

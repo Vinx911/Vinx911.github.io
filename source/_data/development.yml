@@ -1,0 +1,45 @@
+- name: AStral
+  url: https://app.astralapp.com/dashboard
+  img: /images/logos/development/astral.png
+  description: Astral是GitHub上使用标签、注释和强大的搜索功能管理星型库的最佳方式。
+
+- name: Github
+  url: https://github.com/
+  img: /images/logos/development/github.png
+  description: GitHub是世界上最大的代码托管平台,超5千万开发者正在使用。
+    
+- name: Gitee
+  url: https://gitee.com/
+  img: /images/logos/development/gitee.png
+  description: Gitee.com（码云） 是 OSCHINA.NET 推出的代码托管平台，支持 Git 和 SVN，提供免费的私有仓库托管。目前已有超过 600 万的开发者选择 Gitee。
+
+- name: CSDN
+  url: https://blog.csdn.net/
+  img: /images/logos/development/csdn.png
+  description: CSDN博客为中国软件开发者、IT从业人员、IT初学者打造交流的专业IT技术发表平台,全心致力于帮助开发者通过互联网分享知识,让更多开发者从中受益,一同和IT开发者用代码改变未来.
+
+- name: 开源中国
+  url: https://www.oschina.net/
+  img: /images/logos/development/oschina.png
+  description: CSDN博客为中国软件开发者、IT从业人员、IT初学者打造交流的专业IT技术发表平台,全心致力于帮助开发者通过互联网分享知识,让更多开发者从中受益,一同和IT开发者用代码改变未来.
+
+- name: 博客园
+  url: https://www.cnblogs.com/
+  img: /images/logos/development/cnblogs.png
+  description: 博客园是一个面向开发者的知识分享社区。自创建以来，博客园一直致力并专注于为开发者打造一个纯净的技术交流社区，推动并帮助开发者通过互联网分享知识，从而让更多开发者从中受益。博客园的使命是帮助开发者用代码改变世界。
+  
+- name: 力扣
+  url: https://leetcode-cn.com/
+  img: /images/logos/development/leetcode.png
+  description: 题库 - 力扣 (LeetCode) 全球极客挚爱的技术成长平台。海量技术面试题库，拥有算法、数据结构、系统设计等 1000+题目，帮助你高效提升编程技能，轻松拿下世界 IT 名企 Dream Offer。
+
+- name: 掘金
+  url: https://juejin.cn/
+  img: /images/logos/development/juejin.png
+  description: 掘金是一个帮助开发者成长的社区,是给开发者用的 Hacker News,给设计师用的 Designer News,和给产品经理用的 Medium。掘金的技术文章由稀土上聚集的技术大牛和极客共同编辑为你筛选出最优质的干货,其中包括：Android、iOS、前端、后端等方面的内容。用户每天都可以在这里找到技术世界的头条内容。与此同时,掘金内还有沸点、掘金翻译计划、线下活动、专栏文章等内容。即使你是 GitHub、StackOverflow、开源中国的用户,我们相信你也可以在这里有所收获。
+  
+- name: 玩安卓
+  url: https://www.wanandroid.com/
+  img: /images/logos/development/wanandroid.png
+  description: 玩Android是一个每日推荐20~30篇Android优质文章的站点，提供Android常用工具和常用网站，并以知识体系的形式展现所有的文章分类。
+  
