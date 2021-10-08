@@ -1,3 +1,8 @@
+- name: C/C++参考手册
+  url: https://zh.cppreference.com/
+  img: /images/logos/manual/cpp.png
+  description: 我们力图为程序员提供一个全面的 C 和 C++ 语言及其标准库的在线参考资料，亦即 C 和 C++ 标准的一份更加方便实用的版本。
+ 
 - name: 菜鸟教程
   url: https://www.runoob.com/
   img: /images/logos/manual/runoob.png
@@ -32,6 +37,11 @@
   url: https://www.sqlite.org/lang.html
   img: /images/logos/manual/sqlite.png
   description:  SQLite 是一个软件库,实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。
+  
+- name: Lua
+  url: http://www.lua.org/manual/5.4/
+  img: /images/logos/manual/lua.png
+  description:  Lua 是一种轻量小巧的脚本语言,用标准C语言编写并以源代码形式开放, 其设计目的是为了嵌入应用程序中,从而为应用程序提供灵活的扩展和定制功能。
   
   
   
