@@ -43,6 +43,16 @@
   img: /images/logos/manual/lua.png
   description:  Lua 是一种轻量小巧的脚本语言,用标准C语言编写并以源代码形式开放, 其设计目的是为了嵌入应用程序中,从而为应用程序提供灵活的扩展和定制功能。
   
+- name: CMake
+  url: https://cmake.org/cmake/help/latest/
+  img: /images/logos/manual/cmake.png
+  description:  CMake是一个跨平台的安装（编译）工具，可以用简单的语句来描述所有平台的安装(编译过程)。他能够输出各种各样的makefile或者project文件，能测试编译器所支持的C++特性,类似UNIX下的automake。
+  
+- name: XMake
+  url: https://xmake.io/#/zh-cn/
+  img: /images/logos/manual/xmake.png
+  description:  xmake 是一个基于 Lua 的轻量级跨平台构建工具，使用 xmake.lua 维护项目构建，相比 makefile/CMakeLists.txt，配置语法更加简洁直观，对新手非常友好，短时间内就能快速入门，能够让用户把更多的精力集中在实际的项目开发上。
+  
   
   
   
