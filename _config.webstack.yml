@@ -52,12 +52,15 @@ menu:
   - name: 优秀博客
     icon: fas fa-globe
     submenu:
+      - name: 开源杂志
+        icon: fas fa-code
+        config: excellent-magazine
       - name: C/C++
         icon: fas fa-code
-        config: goodBlogs-C_CPP
+        config: excellent-C_CPP
       - name: Java
         icon: fas fa-code
-        config: goodBlogs-Java
+        config: excellent-Java
     
   - name: 开发工具
     icon: fas fa-tools
