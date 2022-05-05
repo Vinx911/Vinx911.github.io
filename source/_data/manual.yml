@@ -14,9 +14,14 @@
   description: 面向 Android 开发者的官方网站。为应用开发者和设计人员提供 Android SDK 和文档。
   
 - name: Kotlin
-  url: https://www.kotlincn.net/
+  url: https://book.kotlincn.net/
   img: /images/logos/manual/kotlin.png
   description: Kotlin 语言中文站
+  
+- name: Jetpack Compose 博物馆
+  url: https://jetpackcompose.cn/docs/
+  img: /images/logos/manual/jetpackcompose.svg
+  description: 此项目致力于帮助大家更好的理解和快速上手 Jetpack Compose 框架, 更多的部分是为了补充官网可能没有介绍的东西
   
 - name: MSDN
   url: https://docs.microsoft.com/zh-cn/windows/apps/desktop/
