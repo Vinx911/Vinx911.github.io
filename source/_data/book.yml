@@ -1,0 +1,4 @@
+- name: C/C++参考手册
+  url: https://zh.cppreference.com/
+  img: /images/logos/manual/cpp.png
+  description: 我们力图为程序员提供一个全面的 C 和 C++ 语言及其标准库的在线参考资料，亦即 C 和 C++ 标准的一份更加方便实用的版本。

@@ -62,6 +62,10 @@ menu:
         icon: fas fa-code
         config: excellent-Java
     
+  - name: 开源书籍
+    icon: fas fa-book
+    config: book   
+        
   - name: 开发工具
     icon: fas fa-tools
     config: tools
