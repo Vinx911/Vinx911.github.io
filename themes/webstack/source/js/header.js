@@ -22,6 +22,66 @@ function search(searchIconUrl) {
             img: "url(" + searchIconUrl + ")  -80px -25px",
             position: "0px -40px",
             url: "https://cn.bing.com/search?q="
+        }, {
+            name: "好搜",
+            img: "url(" + searchIconUrl + ") -105px -25px",
+            position: "-40px -40px",
+            url: "https://www.so.com/s?q="
+        }, {
+            name: "搜狗",
+            img: "url(" + searchIconUrl + ") -80px -50px",
+            position: "0px -80px",
+            url: "https://www.sogou.com/web?query="
+        }, {
+            name: "淘宝",
+            img: "url(" + searchIconUrl + ") -105px -50px",
+            position: "-40px -80px",
+            url: "https://s.taobao.com/search?q="
+        }, {
+            name: "京东",
+            img: "url(" + searchIconUrl + ") -80px -75px",
+            position: "0px -120px",
+            url: "http://search.jd.com/Search?keyword="
+        }, {
+            name: "天猫",
+            img: "url(" + searchIconUrl + ") -105px -75px",
+            position: "-40px -120px",
+            url: "https://list.tmall.com/search_product.htm?q="
+        }, {
+            name: "1688",
+            img: "url(" + searchIconUrl + ") -80px -100px",
+            position: "0px -160px",
+            url: "https://s.1688.com/selloffer/offer_search.htm?keywords="
+        }, {
+            name: "知乎",
+            img: "url(" + searchIconUrl + ") -105px -100px",
+            position: "-40px -160px",
+            url: "https://www.zhihu.com/search?type=content&q="
+        }, {
+            name: "微博",
+            img: "url(" + searchIconUrl + ") -80px -125px",
+            position: "0px -200px",
+            url: "https://s.weibo.com/weibo/"
+        }, {
+            name: "B站",
+            img: "url(" + searchIconUrl + ") -105px -125px",
+            position: "-40px -200px",
+            url: "http://search.bilibili.com/all?keyword="
+        }, {
+            name: "豆瓣",
+            img: "url(" + searchIconUrl + ") -80px -150px",
+            position: "0px -240px",
+            url: "https://www.douban.com/search?source=suggest&q="
+        }, {
+            name: "优酷",
+            img: "url(" + searchIconUrl + ") -105px -150px",
+            position: "-40px -240px",
+            url: "https://so.youku.com/search_video/q_"
+        }, {
+            name: "GitHub",
+            img: "url(" + searchIconUrl + ") -80px -175px",
+            position: "0px -280px",
+            url: "https://github.com/search?utf8=✓&q="
         }]
     };
     var localSearchData = localStorage.getItem("searchData");
