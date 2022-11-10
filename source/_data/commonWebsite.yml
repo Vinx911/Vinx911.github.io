@@ -1,0 +1,48 @@
+- name: 唯客微博客
+  url: https://blog.vinkvin.com/
+  img: /images/logos/common/vinkvin_blog.png
+  description: 本博客是Vinx工作中用到计算机，嵌入式等领域技术的笔记。
+ 
+- name: Google
+  url: https://www.google.com/
+  img: /images/logos/common/google.png
+  description: 这是一个不存在的网站
+  
+- name: 百度网盘
+  url: https://pan.baidu.com/
+  img: /images/logos/common/pan_baidu.png
+  description: 百度网盘为您提供文件的网络备份、同步和分享服务。空间大、速度快、安全稳固，支持教育网加速，支持手机端。注册使用百度网盘即可享受免费存储空间
+  
+- name: Google翻译
+  url: https://translate.google.com/
+  img: /images/logos/common/google_translate.png
+  description: Google 的免费翻译服务可提供简体中文和另外 100 多种语言之间的互译功能，可让您即时翻译字词、短语和网页内容。
+  
+- name: 淘宝
+  url: https://www.taobao.com/
+  img: /images/logos/common/taobao.png
+  description: 淘宝网 - 亚洲较大的网上交易平台，提供各类服饰、美容、家居、数码、话费/点卡充值… 数亿优质商品，同时提供担保交易(先收货后付款)等安全交易保障服务，并由商家提供退货承诺、破损补寄等消费者保障服务，让你安心享受网上购物乐趣！
+  
+- name: 京东
+  url: https://www.jd.com/
+  img: /images/logos/common/jd.png
+  description: 京东JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!
+  
+- name: 当当
+  url: http://www.dangdang.com/
+  img: /images/logos/common/dangdang.png
+  description: 全球领先的综合性网上购物中心。超过100万种商品在线热销！图书、音像、母婴、美妆、家居、数码3C、服装、鞋包等几十大类，正品行货，低至2折，700多城市货到付款，（全场购物满59元免运费。当当网一贯秉承提升顾客体验的承诺，自助退换货便捷又放心）。
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

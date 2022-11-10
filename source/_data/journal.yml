@@ -1,0 +1,21 @@
+- name: Hello Github
+  url: https://www.hellogithub.com/
+  img: /images/logos/excellent_blogs/magazine.png
+  description: HelloGitHub 分享 GitHub 上有趣、入门级的开源项目。每月 28 号以月刊的形式更新发布，内容包括：有趣、入门级的开源项目、开源书籍、实战项目、企业级项目等，让你用很短时间感受到开源的魅力，爱上开源！
+
+- name: GitHub 热点速递
+  url: https://juejin.cn/column/6960645180026421256
+  img: /images/logos/excellent_blogs/magazine.png
+  description: 收录最热、最新、最有趣的开源项目
+  
+  
+- name: 痞子衡嵌入式半月刊
+  url: https://github.com/JayHeng/pzh-mcu-bi-weekly
+  img: /images/logos/excellent_blogs/magazine.png
+  description: 痞子衡嵌入式半月刊，农历年分二十四节气，每个交节之日发布
+  
+- name: 安富莱嵌入式周报
+  url: https://www.armbbs.cn/forum.php?mod=forumdisplay&fid=12&filter=typeid&typeid=104
+  img: /images/logos/excellent_blogs/magazine.png
+  description: 安富莱嵌入式周报
+  

@@ -1,0 +1,29 @@
+- name: 阿里巴巴矢量图标库
+  url: https://www.iconfont.cn/
+  img: /images/logos/ui_resource/iconfont.png
+  description: iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具
+  
+- name: 站酷 
+  url: https://www.zcool.com.cn/
+  img: /images/logos/ui_resource/zcool.png
+  description: 站酷 (ZCOOL)，中国设计师互动平台。深耕设计领域十四年，站酷聚集了1200万设计师、摄影师、插画师、艺术家、创意人，设计创意群体中具有较高的影响力与号召力。
+  
+- name: UI中国 
+  url: https://www.ui.cn/
+  img: /images/logos/ui_resource/ui.png
+  description: UI中国用户体验平台,中国用户体验联盟理事单位。国内极具影响力的设计平台之一。十多年来,携手会员150万+,共同致力于为设计师与企业搭建健康的设计生态！
+  
+- name: FontAwesome 
+  url: https://fontawesome.com/
+  img: /images/logos/ui_resource/font-awesome.png
+  description: Font Awesome，一套绝佳的图标字体库和CSS框架
+  
+- name: IcoMoon 
+  url: https://icomoon.io/app/
+  img: /images/logos/ui_resource/icomoon.jpg
+  description: 使用IcoMoon，您可以轻松搜索和下载矢量图标或生成字体(图标字体)。此工具也可用于图标集管理。它可以生成图标字体，svg, pdf, png和精灵。
+    
+- name: 美叶 
+  url: https://www.meiye.art/
+  img: /images/logos/ui_resource/meiye.png
+  description: 美叶，为设计师，创意人提供有价值的设计参考。灵感采集，优质素材获取，时刻Follow最新流行设计趋势
