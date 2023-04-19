@@ -2,6 +2,12 @@
   url: https://unbug.github.io/codelf/
   img: /images/logos/tools/codelf.png
   description: 从Github, Bitbucket，谷歌Code, Codeplex, Sourceforge, Fedora Project, GitLab的项目中搜索使用的变量名。
+  
+- name: SVG在线编辑器
+  url: http://svg.wxeditor.com/
+  img: /images/logos/tools/svg.wxeditor.svg
+  description: svg在线编辑器_svg矢量图在线制作工具-易点在线矢量图形编辑器。
+  
 
   
   
