@@ -8,7 +8,6 @@
   img: /images/logos/excellent_blogs/magazine.png
   description: 收录最热、最新、最有趣的开源项目
   
-  
 - name: 痞子衡嵌入式半月刊
   url: https://github.com/JayHeng/pzh-mcu-bi-weekly
   img: /images/logos/excellent_blogs/magazine.png
@@ -18,4 +17,9 @@
   url: https://www.armbbs.cn/forum.php?mod=forumdisplay&fid=12&filter=typeid&typeid=104
   img: /images/logos/excellent_blogs/magazine.png
   description: 安富莱嵌入式周报
+  
+- name: 科技爱好者周刊（阮一峰）
+  url: https://www.ruanyifeng.com/blog/
+  img: /images/logos/excellent_blogs/magazine.png
+  description: 这里记录每周值得分享的科技内容，周五发布。
   
